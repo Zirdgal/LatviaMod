@@ -1,5 +1,5 @@
 ﻿focus_tree = {
-	id = latvian_focus
+	id = latvija_tree
 	
 	country = {
 		factor = 0
@@ -76,7 +76,7 @@
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = yes
+		available_if_capitulated = no
 
 		complete_tooltip = {
 		
