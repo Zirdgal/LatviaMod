@@ -56,7 +56,7 @@
 		icon = GFX_goal_unknown
 		#prerequisite = { focus = }
 		mutually_exclusive = { focus = LAT_the_unrest }
-		x = 20
+		x = 25
 		y = 0
 		#relative_position_id = 
 
@@ -93,7 +93,7 @@
 		icon = GFX_goal_unknown
 		#prerequisite = { focus = }
 		mutually_exclusive = { focus = LAT_the_speech }
-		x = 40
+		x = 50
 		y = 0
 		#relative_position_id = 
 
@@ -133,7 +133,7 @@
 		icon = GFX_goal_unknown
 		prerequisite = { focus = LAT_the_speech focus = LAT_the_unrest }
 		#mutually_exclusive = { focus =  }
-		x = -20
+		x = -25
 		y = 1
 		relative_position_id = LAT_the_speech
 
@@ -234,6 +234,619 @@
 			
 		}
 	}
+
+	########################################################################################################################
+	######################################  TRADE PATHS ####################################################################
+	########################################################################################################################
+
+	focus = {
+		id = LAT_the_baltic_hub_for_trade
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_found_the_chamber_of_trade }
+		#mutually_exclusive = { focus =  }
+		x = 4
+		y = 1
+		relative_position_id = LAT_found_the_chamber_of_trade
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_resource_extraction
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_baltic_hub_for_trade }
+		#mutually_exclusive = { focus =  }
+		x = -3
+		y = 1
+		relative_position_id = LAT_the_baltic_hub_for_trade
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_improve_extraction_technology
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_resource_extraction }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = LAT_resource_extraction
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_improve_baltic_trade
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_improve_extraction_technology }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = LAT_improve_extraction_technology
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+
+
+	focus = {
+		id = LAT_the_british
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_baltic_hub_for_trade }
+		mutually_exclusive = { focus = LAT_the_germans focus = LAT_the_soviets }
+		x = 1
+		y = 1
+		relative_position_id = LAT_the_baltic_hub_for_trade
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_adopt_british_free_trade
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_british }
+		#mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = LAT_the_british
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_bound_to_the_british_pound
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_british }
+		#mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = LAT_the_british
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_allow_british_motor_companies
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_adopt_british_free_trade }
+		prerequisite = { focus = LAT_bound_to_the_british_pound }
+		#mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = LAT_adopt_british_free_trade
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LAT_the_germans
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_baltic_hub_for_trade }
+		mutually_exclusive = { focus = LAT_the_soviets focus = LAT_the_british }
+		x = 5
+		y = 1
+		relative_position_id = LAT_the_baltic_hub_for_trade
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_adopt_german_war_economies
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_germans }
+		#mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = LAT_the_germans
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_baltic_autobahn
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_germans }
+		#mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = LAT_the_germans
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_liscense_german_tank_production
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_adopt_german_war_economies }
+		prerequisite = { focus = LAT_baltic_autobahn }
+		#mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = LAT_adopt_german_war_economies
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_the_soviets
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_baltic_hub_for_trade }
+		mutually_exclusive = { focus = LAT_the_germans focus = LAT_the_british }
+		x = 9 
+		y = 1
+		relative_position_id = LAT_the_baltic_hub_for_trade
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_reopen_the_border
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_soviets }
+		#mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = LAT_the_soviets
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_adopt_soviet_spy_systems
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_soviets }
+		#mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		relative_position_id = LAT_the_soviets
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_soviet_army_systems
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_adopt_soviet_spy_systems }
+		prerequisite = { focus = LAT_reopen_the_border }
+		#mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = LAT_adopt_soviet_spy_systems
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_the_new_eastern_trade_power
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_soviet_army_systems focus = LAT_liscense_german_tank_production focus = LAT_allow_british_motor_companies }
+		prerequisite = { focus = LAT_improve_baltic_trade }
+		#mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = LAT_adopt_soviet_spy_systems
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	########################################################################################################################
+	######################################  ACTUAL ECONOMII ################################################################
+	########################################################################################################################
+
+
 	focus = {
 		id = LAT_central_union_of_dairy_farmers
 		icon = GFX_goal_unknown
