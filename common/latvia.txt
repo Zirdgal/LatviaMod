@@ -1,0 +1,93 @@
+﻿focus_tree = {
+	id = latvian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 11
+			tag = LAT
+		}
+
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+#	focus = {
+#		id = AST_
+#		icon = GFX_goal_generic_construction
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -1
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+
+	############################
+	####### ARMY SECTION #######
+	############################
+
+	focus = {
+		id = LAT_pleasefuckingwork
+		icon = GFX_goal_generic_allies_build_infantry
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		x = 2
+		y = 0
+		#relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+}		
