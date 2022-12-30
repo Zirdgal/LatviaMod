@@ -1,0 +1,22 @@
+state={
+	id=910
+	name="STATE_910"
+	provinces={
+		3388 
+	}
+	manpower=64000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = LAT
+		victory_points = {
+			3388 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = LAT
+	}
+}
