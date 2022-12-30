@@ -11,7 +11,7 @@ state={
 	history={
 		owner = LAT
 		victory_points = {
-			3255
+			3255 4
 		}
 		buildings = {
 			infrastructure = 2
