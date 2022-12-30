@@ -16,7 +16,7 @@
 	continuous_focus_position = { x = 50 y = 1000 }
 
 #	focus = {
-#		id = AST_
+#		id = LAT_
 #		icon = GFX_goal_generic_construction
 #		prerequisite = { focus = }
 #		mutually_exclusive = { focus =  }
@@ -50,10 +50,6 @@
 #
 #		}
 #	}
-
-	############################
-	####### ARMY SECTION #######
-	############################
 
 	focus = {
 		id = LAT_pleasefuckingwork
