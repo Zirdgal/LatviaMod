@@ -304,8 +304,41 @@
 			
 		}
 	}
+	focus = {
+		id = LAT_the_hes
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_riga_central_bank }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = LAT_riga_central_bank
 
+		cost = 10
 
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
 	focus = {
 		id = LAT_found_the_chamber_of_artisans
 		icon = GFX_goal_unknown
@@ -341,4 +374,402 @@
 			
 		}
 	}
+	focus = {
+		id = LAT_invest_in_our_future
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_found_the_chamber_of_artisans }
+		prerequisite = { focus = LAT_found_the_chamber_of_agriculture }
+		#mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = LAT_found_the_chamber_of_artisans
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	########################################################################################################################
+	######################################  MILITIRIZE THE HOMELAND ########################################################
+	########################################################################################################################
+
+
+	focus = {
+		id = LAT_greenlight_militirization
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_hes }
+		prerequisite = { focus = LAT_invest_in_our_future }
+		#mutually_exclusive = { focus =  }
+		x = 2
+		y = 1
+		relative_position_id = LAT_the_hes
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_the_castle_of_old_riga
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_greenlight_militirization }
+		#mutually_exclusive = { focus =  }
+		x = -2
+		y = 1
+		relative_position_id = LAT_greenlight_militirization
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = LAT_the_daugavgrivas_fort
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_castle_of_old_riga }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = LAT_the_castle_of_old_riga
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = LAT_the_riga_line
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_daugavgrivas_fort }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = LAT_the_daugavgrivas_fort
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = LAT_the_airforce_problem
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_greenlight_militirization }
+		#mutually_exclusive = { focus =  }
+		x = 2
+		y = 1
+		relative_position_id = LAT_greenlight_militirization
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = LAT_founding_the_vef
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_airforce_problem }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = LAT_the_airforce_problem
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = LAT_minox_cameras
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_founding_the_vef }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = LAT_founding_the_vef
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+
+		}
+	}	
+
+
+
+	focus = {
+		id = LAT_our_version_of_ford
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_founding_the_vef }
+		#mutually_exclusive = { focus =  }
+		x = -2
+		y = 1
+		relative_position_id = LAT_founding_the_vef
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = LAT_the_centre_of_transportation
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_our_version_of_ford }
+		prerequisite = { focus = LAT_minox_cameras }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = LAT_our_version_of_ford
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = LAT_a_renewed_baltic_power
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_riga_line }
+		prerequisite = { focus = LAT_the_centre_of_transportation }
+		#mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = LAT_the_centre_of_transportation
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+
+		}
+	}	
 }		
