@@ -13,7 +13,7 @@
 	
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 1000 }
+	continuous_focus_position = { x = 0 y = 9000 }
 
 #	focus = {
 #		id = LAT_
@@ -52,11 +52,11 @@
 #	}
 
 	focus = {
-		id = LAT_pleasefuckingwork
-		icon = GFX_goal_generic_allies_build_infantry
+		id = LAT_the_speech
+		icon = GFX_goal_unknown
 		#prerequisite = { focus = }
-		#mutually_exclusive = { focus =  }
-		x = 2
+		mutually_exclusive = { focus = LAT_the_unrest }
+		x = 20
 		y = 0
 		#relative_position_id = 
 
@@ -83,7 +83,262 @@
 		}
 
 		completion_reward = {
-			army_experience = 25
+			
+		}
+	}
+
+
+	focus = {
+		id = LAT_the_unrest
+		icon = GFX_goal_unknown
+		#prerequisite = { focus = }
+		mutually_exclusive = { focus = LAT_the_speech }
+		x = 40
+		y = 0
+		#relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	########################################################################################################################
+	######################################  ECONOMY PATH  ##################################################################
+	########################################################################################################################
+
+	focus = {
+		id = LAT_the_lats
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_speech focus = LAT_the_unrest }
+		#mutually_exclusive = { focus =  }
+		x = -20
+		y = 1
+		relative_position_id = LAT_the_speech
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = LAT_found_the_chamber_of_agriculture
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_lats }
+		#mutually_exclusive = { focus =  }
+		x = -2
+		y = 1
+		relative_position_id = LAT_the_lats
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	focus = {
+		id = LAT_found_the_chamber_of_trade
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_the_lats }
+		#mutually_exclusive = { focus =  }
+		x = 2
+		y = 1
+		relative_position_id = LAT_the_lats
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_central_union_of_dairy_farmers
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_found_the_chamber_of_agriculture }
+		#mutually_exclusive = { focus =  }
+		x = -1
+		y = 1
+		relative_position_id = LAT_found_the_chamber_of_agriculture
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = LAT_riga_central_bank
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_central_union_of_dairy_farmers }
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = LAT_central_union_of_dairy_farmers
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = LAT_found_the_chamber_of_artisans
+		icon = GFX_goal_unknown
+		prerequisite = { focus = LAT_found_the_chamber_of_agriculture focus = LAT_found_the_chamber_of_trade }
+		#mutually_exclusive = { focus =  }
+		x = 3
+		y = 1
+		relative_position_id = LAT_found_the_chamber_of_agriculture
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		
+		}
+
+		completion_reward = {
+			
 		}
 	}
 }		
