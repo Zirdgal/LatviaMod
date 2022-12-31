@@ -53,7 +53,7 @@
 
 	focus = {
 		id = LAT_the_speech
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_propaganda
 		#prerequisite = { focus = }
 		mutually_exclusive = { focus = LAT_the_unrest }
 		x = 25
@@ -130,7 +130,7 @@
 
 	focus = {
 		id = LAT_the_lats
-		icon = GFX_goal_unknown
+		icon = GFX_focus_mex_privatisation
 		prerequisite = { focus = LAT_the_speech focus = LAT_the_unrest }
 		#mutually_exclusive = { focus =  }
 		x = -25
@@ -166,7 +166,7 @@
 
 	focus = {
 		id = LAT_found_the_chamber_of_agriculture
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_production
 		prerequisite = { focus = LAT_the_lats }
 		#mutually_exclusive = { focus =  }
 		x = -2
@@ -201,7 +201,7 @@
 	}
 	focus = {
 		id = LAT_found_the_chamber_of_trade
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_positive_trade_relations
 		prerequisite = { focus = LAT_the_lats }
 		#mutually_exclusive = { focus =  }
 		x = 2
@@ -241,7 +241,7 @@
 
 	focus = {
 		id = LAT_the_baltic_hub_for_trade
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_reinforce_western_naval_bases
 		prerequisite = { focus = LAT_found_the_chamber_of_trade }
 		#mutually_exclusive = { focus =  }
 		x = 4
@@ -276,7 +276,7 @@
 	}
 	focus = {
 		id = LAT_resource_extraction
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_steel
 		prerequisite = { focus = LAT_the_baltic_hub_for_trade }
 		#mutually_exclusive = { focus =  }
 		x = -3
@@ -311,7 +311,7 @@
 	}
 	focus = {
 		id = LAT_improve_extraction_technology
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = LAT_resource_extraction }
 		#mutually_exclusive = { focus =  }
 		x = 0
@@ -346,7 +346,7 @@
 	}
 	focus = {
 		id = LAT_improve_baltic_trade
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_consumer_goods
 		prerequisite = { focus = LAT_improve_extraction_technology }
 		#mutually_exclusive = { focus =  }
 		x = 0
@@ -384,7 +384,7 @@
 
 	focus = {
 		id = LAT_the_british
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_british_cooperation
 		prerequisite = { focus = LAT_the_baltic_hub_for_trade }
 		mutually_exclusive = { focus = LAT_the_germans focus = LAT_the_soviets }
 		x = 1
@@ -419,7 +419,7 @@
 	}
 	focus = {
 		id = LAT_adopt_british_free_trade
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_trade
 		prerequisite = { focus = LAT_the_british }
 		#mutually_exclusive = { focus =  }
 		x = 1
@@ -454,7 +454,7 @@
 	}
 	focus = {
 		id = LAT_bound_to_the_british_pound
-		icon = GFX_goal_unknown
+		icon = GFX_focus_mex_privatisation
 		prerequisite = { focus = LAT_the_british }
 		#mutually_exclusive = { focus =  }
 		x = -1
@@ -489,7 +489,7 @@
 	}
 	focus = {
 		id = LAT_allow_british_motor_companies
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_army_motorized
 		prerequisite = { focus = LAT_adopt_british_free_trade }
 		prerequisite = { focus = LAT_bound_to_the_british_pound }
 		#mutually_exclusive = { focus =  }
@@ -526,7 +526,7 @@
 
 	focus = {
 		id = LAT_the_germans
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_mission_to_germany
 		prerequisite = { focus = LAT_the_baltic_hub_for_trade }
 		mutually_exclusive = { focus = LAT_the_soviets focus = LAT_the_british }
 		x = 5
@@ -561,7 +561,7 @@
 	}
 	focus = {
 		id = LAT_adopt_german_war_economies
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = LAT_the_germans }
 		#mutually_exclusive = { focus =  }
 		x = -1
@@ -596,7 +596,7 @@
 	}
 	focus = {
 		id = LAT_baltic_autobahn
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { focus = LAT_the_germans }
 		#mutually_exclusive = { focus =  }
 		x = 1
@@ -631,7 +631,7 @@
 	}
 	focus = {
 		id = LAT_liscense_german_tank_production
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = LAT_adopt_german_war_economies }
 		prerequisite = { focus = LAT_baltic_autobahn }
 		#mutually_exclusive = { focus =  }
@@ -667,7 +667,7 @@
 	}
 	focus = {
 		id = LAT_the_soviets
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_mission_to_the_soviet_union
 		prerequisite = { focus = LAT_the_baltic_hub_for_trade }
 		mutually_exclusive = { focus = LAT_the_germans focus = LAT_the_british }
 		x = 9 
@@ -702,7 +702,7 @@
 	}
 	focus = {
 		id = LAT_reopen_the_border
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = { focus = LAT_the_soviets }
 		#mutually_exclusive = { focus =  }
 		x = -1
@@ -737,7 +737,7 @@
 	}
 	focus = {
 		id = LAT_adopt_soviet_spy_systems
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_secret_service_agency
 		prerequisite = { focus = LAT_the_soviets }
 		#mutually_exclusive = { focus =  }
 		x = 1
@@ -772,7 +772,7 @@
 	}
 	focus = {
 		id = LAT_soviet_army_systems
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
 		prerequisite = { focus = LAT_adopt_soviet_spy_systems }
 		prerequisite = { focus = LAT_reopen_the_border }
 		#mutually_exclusive = { focus =  }
@@ -808,7 +808,7 @@
 	}
 	focus = {
 		id = LAT_the_new_eastern_trade_power
-		icon = GFX_goal_unknown
+		icon = GFX_focus_LAT_lightning_strike
 		prerequisite = { focus = LAT_soviet_army_systems focus = LAT_liscense_german_tank_production focus = LAT_allow_british_motor_companies }
 		prerequisite = { focus = LAT_improve_baltic_trade }
 		#mutually_exclusive = { focus =  }
@@ -849,7 +849,7 @@
 
 	focus = {
 		id = LAT_central_union_of_dairy_farmers
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = LAT_found_the_chamber_of_agriculture }
 		#mutually_exclusive = { focus =  }
 		x = -1
@@ -884,7 +884,7 @@
 	}
 	focus = {
 		id = LAT_riga_central_bank
-		icon = GFX_goal_unknown
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		prerequisite = { focus = LAT_central_union_of_dairy_farmers }
 		#mutually_exclusive = { focus =  }
 		x = 0
@@ -918,8 +918,8 @@
 		}
 	}
 	focus = {
-		id = LAT_the_hes
-		icon = GFX_goal_unknown
+		id = LAT_the_hydro_electric_station
+		icon = GFX_goal_generic_production2
 		prerequisite = { focus = LAT_riga_central_bank }
 		#mutually_exclusive = { focus =  }
 		x = 0
@@ -954,7 +954,7 @@
 	}
 	focus = {
 		id = LAT_found_the_chamber_of_artisans
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_organize_wreckers
 		prerequisite = { focus = LAT_found_the_chamber_of_agriculture focus = LAT_found_the_chamber_of_trade }
 		#mutually_exclusive = { focus =  }
 		x = 3
@@ -989,7 +989,7 @@
 	}
 	focus = {
 		id = LAT_invest_in_our_future
-		icon = GFX_goal_unknown
+		icon = GFX_focus_research
 		prerequisite = { focus = LAT_found_the_chamber_of_artisans }
 		prerequisite = { focus = LAT_found_the_chamber_of_agriculture }
 		#mutually_exclusive = { focus =  }
@@ -1031,13 +1031,13 @@
 
 	focus = {
 		id = LAT_greenlight_militirization
-		icon = GFX_goal_unknown
-		prerequisite = { focus = LAT_the_hes }
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = LAT_the_hydro_electric_station }
 		prerequisite = { focus = LAT_invest_in_our_future }
 		#mutually_exclusive = { focus =  }
 		x = 2
 		y = 1
-		relative_position_id = LAT_the_hes
+		relative_position_id = LAT_the_hydro_electric_station
 
 		cost = 10
 
@@ -1067,7 +1067,7 @@
 	}
 	focus = {
 		id = LAT_the_castle_of_old_riga
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = LAT_greenlight_militirization }
 		#mutually_exclusive = { focus =  }
 		x = -2
@@ -1102,7 +1102,7 @@
 	}	
 	focus = {
 		id = LAT_the_daugavgrivas_fort
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_coastal_fort
 		prerequisite = { focus = LAT_the_castle_of_old_riga }
 		#mutually_exclusive = { focus =  }
 		x = 0
@@ -1137,7 +1137,7 @@
 	}	
 	focus = {
 		id = LAT_the_riga_line
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_provoke_border_clashes
 		prerequisite = { focus = LAT_the_daugavgrivas_fort }
 		#mutually_exclusive = { focus =  }
 		x = 0
@@ -1172,7 +1172,7 @@
 	}	
 	focus = {
 		id = LAT_the_airforce_problem
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_copy_plane_designs
 		prerequisite = { focus = LAT_greenlight_militirization }
 		#mutually_exclusive = { focus =  }
 		x = 2
@@ -1207,7 +1207,7 @@
 	}	
 	focus = {
 		id = LAT_founding_the_vef
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_women_in_aviation
 		prerequisite = { focus = LAT_the_airforce_problem }
 		#mutually_exclusive = { focus =  }
 		x = 0
@@ -1242,7 +1242,7 @@
 	}	
 	focus = {
 		id = LAT_minox_cameras
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_radar
 		prerequisite = { focus = LAT_founding_the_vef }
 		#mutually_exclusive = { focus =  }
 		x = 0
@@ -1280,7 +1280,7 @@
 
 	focus = {
 		id = LAT_our_version_of_ford
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_improve_roads
 		prerequisite = { focus = LAT_founding_the_vef }
 		#mutually_exclusive = { focus =  }
 		x = -2
@@ -1315,7 +1315,7 @@
 	}	
 	focus = {
 		id = LAT_the_centre_of_transportation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_the_road_of_life
 		prerequisite = { focus = LAT_our_version_of_ford }
 		prerequisite = { focus = LAT_minox_cameras }
 		#mutually_exclusive = { focus =  }
@@ -1351,7 +1351,7 @@
 	}	
 	focus = {
 		id = LAT_a_renewed_baltic_power
-		icon = GFX_goal_unknown
+		icon = GFX_focus_LAT_threat_on_our_border
 		prerequisite = { focus = LAT_the_riga_line }
 		prerequisite = { focus = LAT_the_centre_of_transportation }
 		#mutually_exclusive = { focus =  }
