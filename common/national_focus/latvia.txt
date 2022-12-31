@@ -812,9 +812,9 @@
 		prerequisite = { focus = LAT_soviet_army_systems focus = LAT_liscense_german_tank_production focus = LAT_allow_british_motor_companies }
 		prerequisite = { focus = LAT_improve_baltic_trade }
 		#mutually_exclusive = { focus =  }
-		x = -1
-		y = 1
-		relative_position_id = LAT_adopt_soviet_spy_systems
+		x = -2
+		y = 2
+		relative_position_id = LAT_allow_british_motor_companies
 
 		cost = 10
 
