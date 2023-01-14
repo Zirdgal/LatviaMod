@@ -1,0 +1,169 @@
+ideas = {
+
+	country = {
+		
+		LAT_economy = {
+
+			picture = LAT_neopaganism_1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.2
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.2
+				local_resources_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+			}
+		}
+				
+		LAT_economy_2 = {
+
+			picture = LAT_neopaganism_2
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = 0.05
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+
+		LAT_economy_3 = {
+
+			picture = LAT_neopaganism_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.2
+				local_resources_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.1
+			}
+		}
+
+
+
+						
+		LAT_currency = {
+
+			picture = chi_hyper_inflation
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.1
+			}
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+    aircraft_manufacturer = {
+			
+		designer = yes
+		
+		vef = {
+			picture = generic_air_manufacturer_1
+
+			
+			allowed = {
+				original_tag = LAT
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+			
+			equipment_bonus = {
+				# made light bombers, fighters and trainers
+			}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	naval_manufacturer = {
+		
+		designer = yes
+		
+		lkod = {
+			picture = generic_naval_manufacturer_2
+
+			
+			allowed = {
+				original_tag = LAT
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			equipment_bonus = {
+				# mer research
+			}
+			
+			traits = { naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+}

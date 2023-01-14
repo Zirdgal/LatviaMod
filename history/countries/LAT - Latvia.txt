@@ -21,6 +21,7 @@ if = {
 
 add_ideas = {
 	limited_conscription
+	LAT_economy
 }
 
 recruit_character = LAT_gustavs_celminsh

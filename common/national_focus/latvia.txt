@@ -160,7 +160,8 @@
 		}
 
 		completion_reward = {
-			#edit national idea to be better
+				remove_ideas = LAT_economy
+				add_ideas = LAT_economy_2
 		}
 	}
 
