@@ -197,7 +197,8 @@
 		}
 
 		completion_reward = {
-			#improve national idea 2
+			remove_ideas = LAT_economy_2
+			add_ideas = LAT_economy_3
 		}
 	}
 	focus = {
@@ -232,7 +233,7 @@
 		}
 
 		completion_reward = {
-			#improve national idea 3 dont forget add_to_variable function it will be very usefull
+			
 		}
 	}
 
@@ -1100,7 +1101,8 @@
 		}
 
 		completion_reward = {
-			#improve national idea 4 add_to_variable bs again ahhahahahahahahahha
+			remove_ideas = LAT_economy_3
+			add_ideas = LAT_economy_4
 		}
 	}
 	focus = {

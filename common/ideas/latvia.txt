@@ -21,7 +21,7 @@ ideas = {
 				industrial_capacity_factory = -0.25
 				industrial_capacity_dockyard = -0.2
 				local_resources_factor = -0.1
-				production_factory_efficiency_gain_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.2
 			}
 		}
 				
@@ -41,9 +41,9 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = 0.1
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = 0.05
-				production_factory_efficiency_gain_factor = 0.1
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.1
+				production_factory_efficiency_gain_factor = -0.1
 			}
 		}
 
@@ -62,18 +62,35 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.1
+			}
+		}
+		LAT_economy_4 = {
+
+			picture = LAT_neopaganism_4
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
 				consumer_goods_factor = -0.1
-				industrial_capacity_factory = -0.25
-				industrial_capacity_dockyard = -0.2
-				local_resources_factor = -0.15
-				production_factory_efficiency_gain_factor = -0.1
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.1
 			}
 		}
 
 
 
 						
-		LAT_currency = {
+		LAT_trade = {
 
 			picture = chi_hyper_inflation
 			
@@ -88,7 +105,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.05
+				industrial_capacity_dockyard = 0.1
 				industrial_capacity_factory = 0.1
 			}
 		}
