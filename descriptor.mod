@@ -1,4 +1,4 @@
-version="1.12.7"
+version="0.0.1"
 tags={
 	"Fixes"
 	"Gameplay"
@@ -7,4 +7,4 @@ tags={
 	"Map"
 }
 name="LatviaMod"
-supported_version="1.12.7"
+supported_version="1.12.9"
