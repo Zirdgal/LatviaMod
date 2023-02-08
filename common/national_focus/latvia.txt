@@ -273,10 +273,10 @@
 		}
 
 		completion_reward = {
-			swap_ideas = {
 				remove_ideas = LAT_trade
 				add_ideas = LAT_trade_2
-			}
+				add_opinion_modifier = { target = EST modifier = medium_increase }
+				add_opinion_modifier = { target = LIT modifier = medium_increase }
 		}
 	}
 	focus = {
@@ -844,7 +844,8 @@
 		}
 
 		completion_reward = {
-			
+			remove_ideas = LAT_trade_2
+			add_ideas = LAT_trade_3
 		}
 	}
 	########################################################################################################################
