@@ -132,6 +132,31 @@ ideas = {
 			}
 		}
 
+		LAT_trade_3 = {
+
+			picture = generic_economic_increase
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.25
+				industrial_capacity_factory = 0.15
+				consumer_goods_factor = -0.025
+				equipment_bonus = {
+					convoy = {
+						build_cost_ic = -0.1 instant = yes
+					 
+			}
+		}
+
 	}
 
 
