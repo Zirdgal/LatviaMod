@@ -110,6 +110,27 @@ ideas = {
 				consumer_goods_factor = 0.05
 			}
 		}
+								
+		LAT_trade_2 = {
+
+			picture = chi_hyper_inflation2
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.1
+				industrial_capacity_factory = 0.075
+				consumer_goods_factor = 0.05
+			}
+		}
 
 	}
 

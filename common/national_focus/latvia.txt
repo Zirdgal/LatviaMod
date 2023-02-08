@@ -273,7 +273,10 @@
 		}
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_ideas = LAT_trade
+				add_ideas = LAT_trade_2
+			}
 		}
 	}
 	focus = {
