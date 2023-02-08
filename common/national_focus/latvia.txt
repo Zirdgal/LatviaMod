@@ -160,6 +160,8 @@
 		}
 
 		completion_reward = {
+			custom_effect_tooltip = LAT_the_lats_tt
+			
 				remove_ideas = LAT_economy
 				add_ideas = LAT_economy_2
 		}
@@ -846,6 +848,10 @@
 		completion_reward = {
 			remove_ideas = LAT_trade_2
 			add_ideas = LAT_trade_3
+			add_opinion_modifier = { target = SOV modifier = large_increase }
+			add_opinion_modifier = { target = GER modifier = large_increase }
+			add_opinion_modifier = { target = SWE modifier = large_increase }
+			add_opinion_modifier = { target = POL modifier = large_increase }
 		}
 	}
 	########################################################################################################################
