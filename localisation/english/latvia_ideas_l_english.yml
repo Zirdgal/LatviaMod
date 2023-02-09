@@ -1,0 +1,17 @@
+﻿l_english:
+#ECONOMY
+ LAT_economy:0 "A Shattered Economy"
+ LAT_economy_desc:0 "After Gaining Independance from the Romanovs Our economy has only been only going downhill since then."
+ LAT_economy_2:0 "A Stagnant Economy"
+ LAT_economy_2_desc:0 "With the new reforms to our economic system and more coming soon, it seems quite likely that we will finally get out of this loop of poverty."
+ LAT_economy_3:0 "A Recovering Economy"
+ LAT_economy_3_desc:0 "The reforms you have made have finally made us have an actual economy and currency!"
+ LAT_economy_4:0 "A Prospering Economy"
+ LAT_economy_4_desc:0 "The reforms have made us rich, we are no longer just an extension of some kind of empire, we are an independant and strong nation!"
+#TRADE
+ LAT_trade:0 "A Starting Trade Industry"
+ LAT_trade_desc:0 "Our position in the Baltic Sea is a perfect location for trade across it, so let's make an industry for it!" 
+ LAT_trade_2:0 "A Baltic Trade Industry"
+ LAT_trade_2_desc:0 "Expansion of our trade industry in the Baltic Sea has made us have a perfectly modified trade industry towards the area, thus making us quite a force."
+ LAT_trade_3:0 "An Eastern Trade Industry"
+ LAT_trade_3_desc:0 "Expansion of our trade industry in the Baltic Sea has made us the current hub for trading in the Baltic Sea."
