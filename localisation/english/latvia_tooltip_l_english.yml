@@ -1,2 +1,10 @@
-l_english:
-LAT_the_lats_tt = "replace"
+﻿l_english: 
+#ECONOMY
+ LAT_the_lats_tt:0 "Replace §RA Shattered Economy§! with§G A Stagnant Economy§!."
+ LAT_found_the_chamber_of_agriculture_tt:0 "Replace §RA Stagnant Economy§! with§G A Recovering Economy§!."
+ LAT_found_the_chamber_of_artisans_tt:0 "Replace §RA Recovering Economy§! with§G A Prospering Economy§!.\n\n§RYou need A Recovering Economy to do this focus!§!"
+#TRADE
+ LAT_found_the_chamber_of_trade_tt:0 "Adds §YA Starting Trade Industry§!."
+ LAT_the_baltic_hub_for_trade_tt:0 "Replace §RA Starting Trade Industry§! with§G A Baltic Trade Industry§!.\n\nGain §G+25 increased opinion §!with [EST.GetFlag]§Y[EST.GetName]§! and [LIT.GetFlag]§Y[LIT.GetName]§!."
+#MILITARY
+ LAT_greenlight_militirization_tt:0 "Adds §G1 military factory§! and §Y2 building slots §!in every §Ycore §!state."
