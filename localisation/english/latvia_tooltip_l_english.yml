@@ -5,6 +5,8 @@
  LAT_found_the_chamber_of_artisans_tt:0 "Replace §RA Recovering Economy§! with§G A Prospering Economy§!.\n\n§RYou need A Recovering Economy to do this focus!§!"
 #TRADE
  LAT_found_the_chamber_of_trade_tt:0 "Adds §YA Starting Trade Industry§!."
- LAT_the_baltic_hub_for_trade_tt:0 "Replace §RA Starting Trade Industry§! with§G A Baltic Trade Industry§!.\n\nGain §G+25 increased opinion §!with [EST.GetFlag]§Y[EST.GetName]§! and [LIT.GetFlag]§Y[LIT.GetName]§!."
+ LAT_the_baltic_hub_for_trade_tt:0 "Replace §RA Starting Trade Industry§! with§G A Baltic Trade Industry§!.\n\nGain §G+15 increased opinion §!with [EST.GetFlag]§Y[EST.GetName]§! and [LIT.GetFlag]§Y[LIT.GetName]§!."
+ LAT_the_new_eastern_trade_power_tt:0 "Replace §RA Baltic Trade Industry§! with§G An Eastern Trade Industry§!.\n\nGain§G+25 increased opinion §!with [SOV.GetFlag]§Y[SOV.GetName]§!, [GER.GetFlag]§Y[GER.GetName]§!, [SWE.GetFlag]§Y[SWE.GetName]§! and [POL.GetFlag]§Y[POL.GetName]§!."
+ LAT_the_british_tt:0 "Gain§G+25 increased opinion §!with [ENG.GetFlag]§Y[ENG.GetName]§!."
 #MILITARY
  LAT_greenlight_militirization_tt:0 "Adds §G1 military factory§! and §Y2 building slots §!in every §Ycore §!state."

@@ -431,7 +431,13 @@
 		}
 
 		completion_reward = {
-			
+			custom_effect_tooltip = LAT_the_british_tt
+			hidden_effect = {
+				add_opinion_modifier = { 
+					target = ENG 
+					modifier = large_increase
+				}
+			}
 		}
 	}
 	focus = {
@@ -454,7 +460,6 @@
 		}
 		
 		bypass = {
-
 		}
 
 		cancel_if_invalid = yes
@@ -856,12 +861,15 @@
 		}
 
 		completion_reward = {
-			remove_ideas = LAT_trade_2
-			add_ideas = LAT_trade_3
-			add_opinion_modifier = { target = SOV modifier = large_increase }
-			add_opinion_modifier = { target = GER modifier = large_increase }
-			add_opinion_modifier = { target = SWE modifier = large_increase }
-			add_opinion_modifier = { target = POL modifier = large_increase }
+			custom_effect_tooltip = LAT_the_new_eastern_trade_power_tt
+			hidden_effect = {
+				remove_ideas = LAT_trade_2
+				add_ideas = LAT_trade_3
+				add_opinion_modifier = { target = SOV modifier = large_increase }
+				add_opinion_modifier = { target = GER modifier = large_increase }
+				add_opinion_modifier = { target = SWE modifier = large_increase }
+				add_opinion_modifier = { target = POL modifier = large_increase }
+			}
 		}
 	}
 	########################################################################################################################
