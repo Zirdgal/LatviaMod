@@ -1,0 +1,13 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_resource_steel"
+		texturefile = "gfx/texticons/LAT_resource_steel.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_resource_oil"
+		texturefile = "gfx/texticons/LAT_resource_oil.dds"
+		legacy_lazy_load = no
+	}
+}
