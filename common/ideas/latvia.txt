@@ -108,6 +108,7 @@ ideas = {
 				industrial_capacity_dockyard = 0.05
 				industrial_capacity_factory = 0.05
 				consumer_goods_factor = 0.05
+				trade_opinion_factor = 0.05
 			}
 		}
 								
@@ -129,6 +130,7 @@ ideas = {
 				industrial_capacity_dockyard = 0.1
 				industrial_capacity_factory = 0.075
 				consumer_goods_factor = 0.05
+				trade_opinion_factor = 0.1
 			}
 		}
 
@@ -150,32 +152,49 @@ ideas = {
 				industrial_capacity_dockyard = 0.25
 				industrial_capacity_factory = 0.15
 				consumer_goods_factor = -0.025
+				trade_opinion_factor = 0.2
 				equipment_bonus = {
 					convoy = {
 						build_cost_ic = -0.1 instant = yes
-					 
+					}
+				}
 			}
 		}
+	LAT_resource = {
+		picture = idea_ast_all_in
+			
+		allowed = {
+			always = no
+		}
 
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+		
+		modifier = {
+			local_resources_factor = 0.075
+		}
 	}
+	LAT_resource_2 = {
+		picture = idea_ast_all_in
+			
+		allowed = {
+			always = no
+		}
 
+		allowed_civil_war = {
+			always = yes
+		}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
+		removal_cost = -1
+		
+		modifier = {
+			trade_opinion_factor = 0.1
+			local_resources_factor = 0.15
+		}
+	}
     aircraft_manufacturer = {
 			
 		designer = yes

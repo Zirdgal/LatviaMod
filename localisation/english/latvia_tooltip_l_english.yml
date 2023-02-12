@@ -4,9 +4,16 @@
  LAT_found_the_chamber_of_agriculture_tt:0 "Replace §RA Stagnant Economy§! with§G A Recovering Economy§!."
  LAT_found_the_chamber_of_artisans_tt:0 "Replace §RA Recovering Economy§! with§G A Prospering Economy§!.\n\n§RYou need A Recovering Economy to do this focus!§!"
 #TRADE
- LAT_found_the_chamber_of_trade_tt:0 "Adds §YA Starting Trade Industry§!."
+ LAT_found_the_chamber_of_trade_tt:0 "Adds §YA Starting Trade Industry§! national idea."
  LAT_the_baltic_hub_for_trade_tt:0 "Replace §RA Starting Trade Industry§! with§G A Baltic Trade Industry§!.\n\nGain §G+15 increased opinion §!with [EST.GetFlag]§Y[EST.GetName]§! and [LIT.GetFlag]§Y[LIT.GetName]§!."
  LAT_the_new_eastern_trade_power_tt:0 "Replace §RA Baltic Trade Industry§! with§G An Eastern Trade Industry§!.\n\nGain§G+25 increased opinion §!with [SOV.GetFlag]§Y[SOV.GetName]§!, [GER.GetFlag]§Y[GER.GetName]§!, [SWE.GetFlag]§Y[SWE.GetName]§! and [POL.GetFlag]§Y[POL.GetName]§!."
+ LAT_resource_extraction_tt:0 "Adds §Y18£resource_steel  §!in §YVidzeme§!.\nAdds §Y4£resource_oil  §!in §YKurzeme§!."
+ LAT_improve_extraction_technology_tt:0 "Adds §YResource Extraction §!national idea.\nAdds §Y2 §G100% §Wresearch bonuses for §Yresource extraction §!technology."
+ LAT_improve_baltic_trade_tt:0 "Replace §RResource Extraction§! with§G Trade with Neighbours§!.\nAdds §G150 §Yconvoys§W.\nAdds §G2 §Ydockyards §Win §YKurzeme§!."
+#REACHING OUT
  LAT_the_british_tt:0 "Gain§G+25 increased opinion §!with [ENG.GetFlag]§Y[ENG.GetName]§!."
+ LAT_adopt_british_free_trade_tt:0 "Adds the §YFree Trade§! trade law."
+ LAT_the_germans_tt:0 "Gain§G+25 increased opinion §!with [GER.GetFlag]§Y[GER.GetName]§!."
+ LAT_the_soviets_tt:0 "Gain§G+25 increased opinion §!with [SOV.GetFlag]§Y[SOV.GetName]§!."
 #MILITARY
  LAT_greenlight_militirization_tt:0 "Adds §G1 military factory§! and §Y2 building slots §!in every §Ycore §!state."
