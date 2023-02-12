@@ -160,92 +160,110 @@ ideas = {
 				}
 			}
 		}
-	LAT_resource = {
-		picture = ast_all_in
-			
-		allowed = {
-			always = no
-		}
-
-		allowed_civil_war = {
-			always = yes
-		}
-
-		removal_cost = -1
-		
-		modifier = {
-			local_resources_factor = 0.075
-		}
-	}
-	LAT_resource_2 = {
-		picture = can_wartime_prices_and_trade_board
-			
-		allowed = {
-			always = no
-		}
-
-		allowed_civil_war = {
-			always = yes
-		}
-
-		removal_cost = -1
-		
-		modifier = {
-			trade_opinion_factor = 0.1
-			local_resources_factor = 0.15
-		}
-	}
-    aircraft_manufacturer = {
-			
-		designer = yes
-		
-		vef = {
-			picture = generic_air_manufacturer_1
-
+		LAT_resource = {
+			picture = ast_all_in
 			
 			allowed = {
-				original_tag = LAT
+				always = no
 			}
-			
-			research_bonus = {
-				air_equipment = 0.15
-			}
-			
-			traits = { light_aircraft_manufacturer }
-			
-			equipment_bonus = {
-				# made light bombers, fighters and trainers
-			}
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}
 
-	naval_manufacturer = {
-		
-		designer = yes
-		
-		lkod = {
-			picture = generic_naval_manufacturer_2
+			allowed_civil_war = {
+				always = yes
+			}
 
-			
-			allowed = {
-				original_tag = LAT
-			}
-			
-			research_bonus = {
-				naval_equipment = 0.15
-			}
-			
-			equipment_bonus = {
-				# mer research
-			}
-			
-			traits = { naval_manufacturer }
-			
+			removal_cost = -1
+		
 			modifier = {
+				local_resources_factor = 0.075
+			}
+		}
+		LAT_resource_2 = {
+			picture = can_wartime_prices_and_trade_board
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				trade_opinion_factor = 0.1
+				local_resources_factor = 0.15
+			}
+		}	
+		LAT_bound_to_the_pound = {
+			picture = fra_market_dynamism
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				#idklmao
+			}
+		}
+   		 aircraft_manufacturer = {
+			
+			designer = yes
+		
+			vef = {
+				picture = generic_air_manufacturer_1
+
+			
+				allowed = {
+					original_tag = LAT
+				}
+			
+				research_bonus = {
+					air_equipment = 0.15
+				}
+			
+				traits = { light_aircraft_manufacturer }
+			
+				equipment_bonus = {
+					# made light bombers, fighters and trainers
+				}
+			
+				ai_will_do = {
+					factor = 1
+				}
+			}
+		}
+
+		naval_manufacturer = {
+		
+			designer = yes
+		
+			lkod = {
+				picture = generic_naval_manufacturer_2
+
+			
+				allowed = {
+					original_tag = LAT
+				}
+			
+				research_bonus = {
+					naval_equipment = 0.15
+				}
+			
+				equipment_bonus = {
+					# mer research
+				}
+			
+				traits = { naval_manufacturer }
+			
+				modifier = {
+				}
 			}
 		}
 	}
